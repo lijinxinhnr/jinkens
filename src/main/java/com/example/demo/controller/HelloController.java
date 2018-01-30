@@ -10,6 +10,6 @@ public class HelloController {
     @RequestMapping("hello")
     public CommomResult<String> hello(){
 
-    return new CommomResult<String>("0","成功");
+    return new CommomResult<String>("0","成功1");
     }
 }
